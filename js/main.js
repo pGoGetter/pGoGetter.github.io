@@ -15,5 +15,6 @@ const loadCardGame = () => {
     document.head.appendChild(highscoreElement);
     document.head.appendChild(cardElement);
     document.head.appendChild(cardGameElement);
+    startGame();
 
 };
