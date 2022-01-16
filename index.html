@@ -10,10 +10,28 @@
 <header>
     <nav class="navbar">
         <ul>
-            <li><button id="cardGameLoadButton" onclick="loadCardGame();">Cardgame</button></li>
-        </ul>
+            <li><h1 id="scoreHeader">Reaction trainer</h1></li>
+            <li><h2 id="timerHeader">Good luck!</h2></li>
+            <li id="UsernameSelection">
 
+                <label for="Username">Username:</label>
+                <input id="Username" type="text" name="DATA_username">
+
+            </li>
+            <li id="AmountSelection">
+                <!--<span>-->
+                <label id="AmountLabel" for="Amount">Please input the amount of cards that you want to be shown.</label>
+                <select id="Amount" name="DATA_amount">
+                    <option value="3">3</option>
+                    <option value="7">7</option>
+                    <option value="9">9</option>
+                </select>
+            </li>
+            <li><button id="scoreboardButton" onclick="toggleScoreBoard();">Scoreboard</button></li>
+            <li><button id="GameButton" onclick="startGame();">Enter</button></li>
+        </ul>
     </nav>
+    <button id="cardGameLoadButton" onclick="loadCardGame();">Cardgame</button>
 </header>
 <main id="mainContent">
 
