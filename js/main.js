@@ -1,6 +1,3 @@
-
-alert('test');
-
 const loadCardGame = () => {
   let cardGameElement = document.createElement('script');
   let highscoreElement = document.createElement('script');
@@ -15,7 +12,8 @@ const loadCardGame = () => {
     cardElement.setAttribute('type','text/javascript');
     cardElement.setAttribute('src','js/Card.js');
 
-    document.head.appendChild(cardGameElement);
     document.head.appendChild(highscoreElement);
     document.head.appendChild(cardElement);
+    document.head.appendChild(cardGameElement);
+
 };
