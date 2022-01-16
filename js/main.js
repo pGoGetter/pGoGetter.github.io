@@ -19,7 +19,3 @@ const loadCardGame = () => {
     document.head.appendChild(highscoreElement);
     document.head.appendChild(cardElement);
 };
-
-document.getElementById('cardGameLoadButton').addEventListener('click', function(){
-    loadCardGame();
-});
