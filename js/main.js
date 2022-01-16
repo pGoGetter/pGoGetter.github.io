@@ -20,7 +20,6 @@ const loadCardGame = () => {
     document.head.appendChild(cardElement);
 };
 
-document.getElementById('cardGameLoadButton').addEventListener('click', function () {
-  alert('test');
+document.getElementById('cardGameLoadButton').addEventListener('click', function(){
     loadCardGame();
 });
