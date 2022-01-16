@@ -18,5 +18,6 @@ const loadCardGame = () => {
 };
 
 document.getElementById('cardGameLoadButton').addEventListener('click', function () {
+  alert('test');
     loadCardGame();
 });
